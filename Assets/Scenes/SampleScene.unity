@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 594509478}
   - component: {fileID: 594509480}
   - component: {fileID: 594509479}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -826,7 +826,7 @@ GameObject:
   - component: {fileID: 895673077}
   - component: {fileID: 895673079}
   - component: {fileID: 895673078}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Text1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1175,7 +1175,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967287
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -1345,7 +1345,7 @@ GameObject:
   - component: {fileID: 1741777202}
   - component: {fileID: 1741777204}
   - component: {fileID: 1741777203}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Text2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1642,7 +1642,8 @@ GameObject:
   - component: {fileID: 1881908398}
   - component: {fileID: 1881908397}
   - component: {fileID: 1881908400}
-  m_Layer: 5
+  - component: {fileID: 1881908401}
+  m_Layer: 3
   m_Name: CanvasText1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1741,7 +1742,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881908395}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aacc87e19a05c384aa1bc2b3169636c1, type: 3}
   m_Name: 
@@ -1749,6 +1750,34 @@ MonoBehaviour:
   centerEyeAnchor: {fileID: 1145903732}
   positionLerpSpeed: 10
   rotationLerpSpeed: 10
+--- !u!114 &1881908401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881908395}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee10491ef6d5d1d49a270cf6b09bdc19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enableMipmapping: 0
+  _dynamicResolution: 1
+  _redrawResolutionThreshold: 2147483647
+  rectTransform: {fileID: 1881908396}
+  maxTextureSize: 2048
+  manualRedraw: 0
+  renderInterval: 1
+  renderIntervalFrameOffset: 0
+  expensive: 0
+  layer: 5
+  opacity: 2
+  shape: 0
+  curveRadius: 1
+  overlapMask: 0
+  overlayType: 1
+  _overlayEnabled: 1
 --- !u!1 &1899772957
 GameObject:
   m_ObjectHideFlags: 0
